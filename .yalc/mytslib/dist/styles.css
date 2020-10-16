@@ -1,0 +1,87 @@
+@charset "UTF-8";
+.center {
+  text-align: center; }
+
+[class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "iconfont";
+  font-style: normal;
+  font-weight: normal;
+  speak: never;
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */ }
+
+.icon-heart:before {
+  content: '\e800'; }
+
+/* '' */
+.icon-music:before {
+  content: '\e801'; }
+
+/* '' */
+.icon-users:before {
+  content: '\e802'; }
+
+/* '' */
+.icon-camera:before {
+  content: '\e803'; }
+
+/* '' */
+.icon-picture:before {
+  content: '\e804'; }
+
+/* '' */
+.icon-child:before {
+  content: '\f1ae'; }
+
+/* '' */
+body {
+  font-family: sans-serif; }
+
+@font-face {
+    font-family: 'iconfont';
+    src: url('./assets/iconfont/fontello.eot?78436030');
+    src: url('./assets/iconfont/fontello.eot?78436030#iefix') format('embedded-opentype'),
+    url('./assets/iconfont/fontello.woff2?78436030') format('woff2'),
+    url('./assets/iconfont/fontello.woff?78436030') format('woff'),
+    url('./assets/iconfont/fontello.ttf?78436030') format('truetype'),
+    url('./assets/iconfont/fontello.svg?78436030#fontello') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.buttonStyles-module_button__3bTuQ {
+  background-color: rebeccapurple;
+  display: inline-block;
+  color: white;
+  font-weight: bold;
+  border: 1px solid blue;
+  padding: 5px 10px;
+  cursor: pointer; }
+
+.panelStyles-module_panel__1m42W {
+  border: 2px solid green; }
+
+.panelStyles-module_title__acH7n {
+  font-style: italic;
+  background-color: red; }
+
+/*# sourceMappingURL=styles.css.map */

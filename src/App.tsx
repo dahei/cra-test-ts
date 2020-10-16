@@ -1,26 +1,18 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import {Button, Panel, sum} from "mytslib";
+import styles from './appStyles.module.scss';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <div>
+            <Button label={'I stand alone'}/>
+            <Panel title={'Panel title here'}>
+                <Button label={'I am in the panel'}/>
+                <Button label={'I have a custom className'} className={styles.customButton}/>
+                {`40 + 2 = ${sum(40,2)}`}
+            </Panel>
+        </div>
+    );
 }
 
 export default App;

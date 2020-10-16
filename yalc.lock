@@ -1,0 +1,9 @@
+{
+  "version": "v1",
+  "packages": {
+    "mytslib": {
+      "signature": "5597179725def422a25225c251d15c58",
+      "file": true
+    }
+  }
+}

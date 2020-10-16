@@ -1,3 +1,7 @@
+/* this should be the only import needed for getting the default lib styles */
+@import "~mytslib/dist/styles.css";
+
+/* custom app styles start here */
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
